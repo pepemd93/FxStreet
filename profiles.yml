@@ -1,0 +1,8 @@
+# profiles.yml
+
+fxstreet_flows:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: './results/mydatabase.duckdb'
